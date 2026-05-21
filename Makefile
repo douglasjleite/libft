@@ -16,7 +16,8 @@ SRC = ft_isalpha.c \
 	 ft_memmove.c \
 	 ft_memchr.c \
 	 ft_memcmp.c \
-	 ft_strlen.c
+	 ft_strlen.c \
+	 ft_strlcpy.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
