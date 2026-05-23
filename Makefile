@@ -25,7 +25,8 @@ SRC = ft_isalpha.c \
 	 ft_toupper.c \
 	 ft_tolower.c \
 	 ft_calloc.c \
-	 ft_strdup.c
+	 ft_strdup.c \
+	 ft_substr.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
