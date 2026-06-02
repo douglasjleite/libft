@@ -9,9 +9,7 @@ char	*ft_strdup(const char *s1)
 	string_length = ft_strlen(s1);
 	duplicated_string = malloc(string_length + 1);
 	if (!duplicated_string)
-	{
 		return (NULL);
-	}
 	i = 0;
 	while (s1[i] != '\0')
 	{
