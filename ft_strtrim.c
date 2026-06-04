@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:06:43 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:06:51 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/06/04 13:42:07 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	if (!s1 || !set)
 		return (NULL);
 	start = 0;
-	while (s1[start] != '\0' && ft_strchr(set, s1[start]))
+	while (s1[start] && ft_strchr(set, s1[start]))
 		start++;
 	end = ft_strlen(s1);
 	while (end > start && ft_strchr(set, s1[end - 1]))

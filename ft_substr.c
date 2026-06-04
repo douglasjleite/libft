@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:12:21 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:12:43 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/06/04 13:42:14 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!sub_string)
 		return (NULL);
 	i = 0;
-	while (i < len && s[start + i] != '\0')
+	while (i < len && s[start + i])
 	{
 		sub_string[i] = s[start + i];
 		i++;

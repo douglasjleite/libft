@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:12:13 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:18:01 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/06/04 13:41:59 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strrchr(const char *s, int c)
 	int	i;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (s[i])
 		i++;
 	while (i >= 0)
 	{

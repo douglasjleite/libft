@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:08:39 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:08:41 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/06/04 13:40:15 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strdup(const char *s1)
 	if (!duplicated_string)
 		return (NULL);
 	i = 0;
-	while (s1[i] != '\0')
+	while (s1[i])
 	{
 		duplicated_string[i] = s1[i];
 		i++;

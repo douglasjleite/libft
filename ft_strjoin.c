@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:10:21 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:10:22 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/06/04 13:40:58 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	if (!new_str)
 		return (NULL);
 	i = 0;
-	while (s1[i] != '\0')
+	while (s1[i])
 	{
 		new_str[i] = s1[i];
 		i++;
 	}
 	j = 0;
-	while (s2[j] != '\0')
+	while (s2[j])
 		new_str[i++] = s2[j++];
 	new_str[i] = '\0';
 	return (new_str);
