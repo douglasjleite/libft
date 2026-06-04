@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/04 11:44:54 by djesus-l          #+#    #+#             */
+/*   Updated: 2026/06/04 11:44:58 by djesus-l         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	ft_skip_spaces_and_sign(const char *str, int *i)
@@ -25,7 +37,7 @@ static int	ft_check_overflow(long result, int signal)
 	return (1);
 }
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int		i;
 	int		signal;

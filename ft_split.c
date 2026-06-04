@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/04 12:07:46 by djesus-l          #+#    #+#             */
+/*   Updated: 2026/06/04 13:08:27 by djesus-l         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	ft_count_words(char const *s, char c)
@@ -67,11 +79,11 @@ char	**ft_split(char const *s, char c)
 	char	**res;
 	size_t	words;
 
-	if(!s)
+	if (!s)
 		return (NULL);
 	words = ft_count_words(s, c);
 	res = malloc((words + 1) * sizeof(char *));
-	if(!res)
+	if (!res)
 		return (NULL);
 	return (ft_fill_matrix(res, s, c));
 }

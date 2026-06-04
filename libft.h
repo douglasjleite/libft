@@ -1,15 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/04 11:59:17 by djesus-l          #+#    #+#             */
+/*   Updated: 2026/06/04 13:28:35 by djesus-l         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stddef.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <stddef.h>
 
-typedef struct	s_list
+typedef struct s_list
 {
-	void	*content;
-	struct	s_list *next;
-} t_list;
+	void			*content;
+	struct s_list	*next;
+}		t_list;
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
