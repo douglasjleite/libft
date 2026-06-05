@@ -174,7 +174,7 @@ All functions were designed, implemented, debugged, and validated by the author.
 
 ---
 
-## 👤 Author
+## Author
 
 **Douglas Jesus Leite**
 42 São Paulo | Software Development Student
