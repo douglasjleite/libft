@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 11:58:56 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 11:58:58 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/07/24 15:49:46 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 			return (&src[i]);
 		i++;
 	}
-	return (0);
+	return (NULL);
 }

@@ -26,12 +26,6 @@ The library is compiled using the provided **Makefile** with the following flags
 make
 ```
 
-### Bonus Part (Linked Lists)
-
-```bash
-make bonus
-```
-
 ### Clean Object Files
 
 ```bash

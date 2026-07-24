@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 13:08:39 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 13:40:15 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/07/21 15:56:33 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strdup(const char *s1)
 	size_t	i;
 
 	string_length = ft_strlen(s1);
-	duplicated_string = malloc(string_length + 1);
+	duplicated_string = malloc(sizeof(char) * (string_length + 1));
 	if (!duplicated_string)
 		return (NULL);
 	i = 0;

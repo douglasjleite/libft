@@ -6,7 +6,7 @@
 /*   By: djesus-l <djesus-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/04 12:01:50 by djesus-l          #+#    #+#             */
-/*   Updated: 2026/06/04 12:02:54 by djesus-l         ###   ########.fr       */
+/*   Updated: 2026/07/24 15:43:59 by djesus-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char	*s;
 
 	if (!dest && !src)
-		return (0);
+		return (NULL);
 	d = (unsigned char *)dest;
 	s = (unsigned char *)src;
 	i = 0;
